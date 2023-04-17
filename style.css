@@ -1,0 +1,73 @@
+html {
+     height: 100%;
+     width: 100%;
+}
+ body {
+     background-color: black;
+     color: white;
+}
+p{
+  padding:25px;
+       background-color: transparent;
+
+}
+ p:hover {
+     background-color: #525151;
+   font-family: 'Antimatter', sans-serif;
+}
+ .title {
+     text-align: center;
+     border: 5px solid darkred;
+     margin: 5px;
+   padding:10px;
+     font-size: 60px;
+     animation: moveText 3s ease-in-out infinite;
+}
+ .title:hover {
+     font-family: 'Antimatter', sans-serif;
+     background-color: red;
+     color: yellow;
+   padding:10px;
+}
+ @keyframes moveText {
+     0% {
+         transform: translateY(-5px);
+    }
+     50% {
+         transform: translateY(5px);
+    }
+     100% {
+         transform: translateY(-5px);
+    }
+}
+ .websiteBody {
+     border: 5px solid #dfdf07;
+     margin: 5px;
+     padding: 10px;
+}
+ .movieStuff {
+     border: 5px solid white;
+     margin: 5px;
+     padding: 10px;
+     text-align: left;
+     display:flexbox;
+     justify-content: left;
+}
+ .actorInfo {
+     width: 700px;
+     border: 5px solid snow;
+     box-sizing: border-box;
+}
+ .moviePoster {
+     border: 5px solid white;
+     display:flex;
+     text-align: right;
+}
+ .images {
+     border: solid 5px white;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     max-width: 100%;
+     height: auto;
+}
